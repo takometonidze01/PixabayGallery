@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Bold.ttf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="Pixabay_Gallery" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="sdV-tD-UIc"/>
+                <outlet property="lblTitle" destination="zwQ-N9-U1M" id="aYI-Hd-laF"/>
+                <outlet property="textField" destination="Bh6-zy-zfJ" id="NAO-rk-dij"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="116"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bh6-zy-zfJ">
+                    <rect key="frame" x="0.0" y="8" width="414" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="mlm-Ct-wPX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwQ-N9-U1M">
+                    <rect key="frame" x="20" y="65" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="11"/>
+                    <color key="textColor" systemColor="systemRedColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Bh6-zy-zfJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="C0j-g6-we2"/>
+                <constraint firstItem="zwQ-N9-U1M" firstAttribute="top" secondItem="Bh6-zy-zfJ" secondAttribute="bottom" constant="7" id="VaC-QD-apo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Bh6-zy-zfJ" secondAttribute="trailing" id="a0R-NS-v6u"/>
+                <constraint firstItem="zwQ-N9-U1M" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="d8e-Vv-Zcv"/>
+                <constraint firstItem="zwQ-N9-U1M" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="7" id="dgo-8I-p6v"/>
+                <constraint firstItem="Bh6-zy-zfJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="vRs-Y3-Gcs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="141" y="168"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
