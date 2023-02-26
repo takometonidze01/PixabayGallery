@@ -1,0 +1,25 @@
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/Constraint.swift":
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/Constraint.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/Constraint.dia"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/Constraint.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/Constraint.swiftdeps"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintAttributes.swift":
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintAttributes.dia"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintAttributes.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintAttributes.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintAttributes.d"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintConfig.swift":
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConfig.o"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConfig.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConfig.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConfig.swiftdeps"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintConstantTarget.swift":
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConstantTarget.d"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConstantTarget.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConstantTarget.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintConstantTarget.dia"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintDSL.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintDSL.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintDSL.d"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintDSL.o"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintDSL.dia"

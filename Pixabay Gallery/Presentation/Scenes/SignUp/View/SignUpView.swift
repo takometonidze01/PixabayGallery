@@ -142,6 +142,8 @@ class SignUpView: UIView {
                         passwordTextField.sawError(error: ErrorMessage.emptyPasswordField.rawValue)
                     case .ageLimit:
                         errorLabel.text = ErrorMessage.ageLimit.rawValue
+                    case .other:
+                        errorLabel.text = ErrorMessage.other.rawValue
                 }
             }
         }

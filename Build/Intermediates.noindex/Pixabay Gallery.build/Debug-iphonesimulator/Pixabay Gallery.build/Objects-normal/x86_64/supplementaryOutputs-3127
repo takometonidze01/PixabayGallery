@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Presentation/ServiceAssemblyProtocol.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/ServiceAssemblyProtocol.swiftdeps"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/ServiceAssemblyProtocol.o"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/ServiceAssemblyProtocol.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/ServiceAssemblyProtocol.dia"
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Domain/Responses/PixabayImageResponse.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/PixabayImageResponse.swiftdeps"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/PixabayImageResponse.o"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/PixabayImageResponse.dia"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/PixabayImageResponse.d"
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Presentation/Scenes/SignUp/ViewModel/SignUpViewModel.swift":
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpViewModel.d"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpViewModel.o"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpViewModel.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpViewModel.swiftdeps"
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Infrastructure/Extensions/UITableViewCell+Extension.swift":
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/UITableViewCell+Extension.dia"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/UITableViewCell+Extension.d"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/UITableViewCell+Extension.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/UITableViewCell+Extension.swiftdeps"

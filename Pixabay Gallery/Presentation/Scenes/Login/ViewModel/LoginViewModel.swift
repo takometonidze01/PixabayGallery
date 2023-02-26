@@ -8,12 +8,22 @@
 import UIKit
 
 class LoginViewModel {
-    enum LoginError {
+    private let loginService: LoginService
+    
+    init(loginService: LoginService) {
+        self.loginService = loginService
+    }
+    
+    enum LoginError: Error, CaseIterable {
         case emptyEmail
         case emptyPassword
         case invalidEmail
         case invalidPassword
         case invalidUser
+        
+        static var allCases: [LoginError] {
+            return [.emptyEmail, .emptyPassword, .invalidEmail, .invalidPassword, .invalidUser]
+        }
     }
     
     var loginError: ((LoginError) -> Void)?

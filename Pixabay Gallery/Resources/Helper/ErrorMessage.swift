@@ -14,4 +14,5 @@ public enum ErrorMessage: String, CaseIterable{
     case invalidPassword = "*Enter a valid password"
     case ageLimit = "*You must be at least 18 years old"
     case invalidUser = "*Invalid account"
+    case other = "*Something went wrong"
 }

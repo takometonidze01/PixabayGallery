@@ -1,0 +1,20 @@
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintPriorityTarget.swift":
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriorityTarget.o"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriorityTarget.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriorityTarget.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriorityTarget.swiftdeps"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintPriority.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriority.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriority.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriority.dia"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintPriority.o"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintRelatableTarget.swift":
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelatableTarget.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelatableTarget.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelatableTarget.swiftdeps"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelatableTarget.o"
+"/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/SnapKit/Sources/ConstraintRelation.swift":
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelation.dia"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelation.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelation.swiftdeps"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/x86_64/ConstraintRelation.o"

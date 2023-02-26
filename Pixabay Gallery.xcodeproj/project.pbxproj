@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03CC7F5329AB5C450082D7A3 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CC7F5229AB5C450082D7A3 /* PresentationAssembly.swift */; };
+		03CC7F5529AB602B0082D7A3 /* ServiceAssemblyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CC7F5429AB602B0082D7A3 /* ServiceAssemblyProtocol.swift */; };
+		03CC7F5829AB61040082D7A3 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CC7F5729AB61040082D7A3 /* LoginService.swift */; };
+		03CC7F5A29AB61210082D7A3 /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CC7F5929AB61210082D7A3 /* SignUpService.swift */; };
+		03CC7F5C29AB684F0082D7A3 /* RootAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CC7F5B29AB684F0082D7A3 /* RootAssembly.swift */; };
 		040408EE28AD691500CB55AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040408ED28AD691500CB55AC /* AppDelegate.swift */; };
 		040408F028AD691500CB55AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040408EF28AD691500CB55AC /* SceneDelegate.swift */; };
 		040408F228AD691500CB55AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040408F128AD691500CB55AC /* LoginViewController.swift */; };
@@ -46,6 +51,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03CC7F5229AB5C450082D7A3 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
+		03CC7F5429AB602B0082D7A3 /* ServiceAssemblyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssemblyProtocol.swift; sourceTree = "<group>"; };
+		03CC7F5729AB61040082D7A3 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		03CC7F5929AB61210082D7A3 /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		03CC7F5B29AB684F0082D7A3 /* RootAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAssembly.swift; sourceTree = "<group>"; };
 		040408EA28AD691500CB55AC /* Pixabay Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixabay Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040408ED28AD691500CB55AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040408EF28AD691500CB55AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CC7F5629AB60F00082D7A3 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				03CC7F5729AB61040082D7A3 /* LoginService.swift */,
+				03CC7F5929AB61210082D7A3 /* SignUpService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
 		040408E128AD691500CB55AC = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +135,7 @@
 		040408EC28AD691500CB55AC /* Pixabay Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				03CC7F5629AB60F00082D7A3 /* ServiceLayer */,
 				0404090128AD6AD500CB55AC /* API */,
 				0404090228AD6AEE00CB55AC /* App */,
 				0404090328AD6AFB00CB55AC /* Domain */,
@@ -179,6 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				0404090C28AD6BCC00CB55AC /* Scenes */,
+				03CC7F5229AB5C450082D7A3 /* PresentationAssembly.swift */,
+				03CC7F5429AB602B0082D7A3 /* ServiceAssemblyProtocol.swift */,
+				03CC7F5B29AB684F0082D7A3 /* RootAssembly.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -322,7 +345,6 @@
 		0404091628AD6C7100CB55AC /* DetailPage */ = {
 			isa = PBXGroup;
 			children = (
-				0404091828AD6C7F00CB55AC /* ViewModel */,
 				0404091728AD6C7900CB55AC /* View */,
 			);
 			path = DetailPage;
@@ -335,13 +357,6 @@
 				04BDE22528AF76020073F67E /* DetailsView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		0404091828AD6C7F00CB55AC /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		0438585C28AD79DA0095ECF5 /* Constraints */ = {
@@ -486,15 +501,20 @@
 				04CA0BC428B0D2D00032496A /* PixabayImage.swift in Sources */,
 				04BD4B9328B21DD100192DDE /* LoginViewModel.swift in Sources */,
 				0438585E28AD79EB0095ECF5 /* Constraints.swift in Sources */,
+				03CC7F5829AB61040082D7A3 /* LoginService.swift in Sources */,
+				03CC7F5C29AB684F0082D7A3 /* RootAssembly.swift in Sources */,
 				04BB06A028B3633E009AD253 /* FontHandler.swift in Sources */,
 				040408EE28AD691500CB55AC /* AppDelegate.swift in Sources */,
 				04CA0BCF28B0F5110032496A /* SignUpViewModel.swift in Sources */,
 				04CA0BC628B0D2E90032496A /* PixabayImageResponse.swift in Sources */,
+				03CC7F5529AB602B0082D7A3 /* ServiceAssemblyProtocol.swift in Sources */,
 				0404092828AD6D5300CB55AC /* UITableViewCell+Extension.swift in Sources */,
 				0404091A28AD6CA800CB55AC /* SignUpViewController.swift in Sources */,
 				0404092628AD6D3800CB55AC /* UITableView+Extension.swift in Sources */,
+				03CC7F5329AB5C450082D7A3 /* PresentationAssembly.swift in Sources */,
 				04CA0BC828B0D3D30032496A /* PixabayImageManager.swift in Sources */,
 				04DA6EF528AE77C400C5F2AE /* SignUpView.swift in Sources */,
+				03CC7F5A29AB61210082D7A3 /* SignUpService.swift in Sources */,
 				0438586028AE12E90095ECF5 /* LoginView.swift in Sources */,
 				04CA0BD228B10F990032496A /* CustomTextField.swift in Sources */,
 				04BDE21F28AF72190073F67E /* MainPageDataSource.swift in Sources */,

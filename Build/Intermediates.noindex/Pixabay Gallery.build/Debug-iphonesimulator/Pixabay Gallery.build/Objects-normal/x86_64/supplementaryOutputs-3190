@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Presentation/Scenes/SignUp/View/SignUpView.swift":
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpView.o"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpView.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpView.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpView.d"
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Presentation/Scenes/Login/View/LoginView.swift":
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/LoginView.o"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/LoginView.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/LoginView.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/LoginView.dia"
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/ServiceLayer/SignUpService.swift":
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpService.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpService.swiftdeps"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpService.o"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/SignUpService.dia"
+"/Users/codergirltm/Desktop/PixabayGallery/Pixabay Gallery/Resources/TMTextField/CustomTextField.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/CustomTextField.swiftdeps"
+  object: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/CustomTextField.o"
+  dependencies: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/CustomTextField.d"
+  diagnostics: "/Users/codergirltm/Desktop/PixabayGallery/Build/Intermediates.noindex/Pixabay Gallery.build/Debug-iphonesimulator/Pixabay Gallery.build/Objects-normal/x86_64/CustomTextField.dia"

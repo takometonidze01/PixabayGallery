@@ -11,10 +11,20 @@ class MainPageViewController: UIViewController {
 
     
     private let tableView = UITableView()
-    
-    private var pixabayImageManger: PixabayImageManager!
-    private var viewModel: MainPageViewModelProtocol!
+    private var viewModel: MainPageViewModelProtocol
     private var dataSource: MainPageDataSource!
+    private let presentationAssembly: PresentationAssembly
+
+    init(viewModel: MainPageViewModelProtocol,
+         presentationAssembly: PresentationAssembly) {
+        self.viewModel = viewModel
+        self.presentationAssembly = presentationAssembly
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,9 +59,10 @@ class MainPageViewController: UIViewController {
     }
     
     func configureViewModel() {
-        pixabayImageManger = PixabayImageManager(with: NetworkManager())
-        viewModel = MainPageViewModel(with: pixabayImageManger)
-        dataSource = MainPageDataSource(with: tableView, viewModel: viewModel, viewController: self)
+        dataSource = MainPageDataSource(with: tableView,
+                                        viewModel: viewModel,
+                                        viewController: self,
+                                        presentationAssembly: presentationAssembly)
         
         dataSource.refresh()
     }

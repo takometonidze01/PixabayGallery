@@ -1,0 +1,127 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "d6d6290271b4af10c83638adc7a3cc07909b4ba456139f019f75b8c94d907a8f"
+build_start_time: [1677407270, 260236978]
+build_end_time: [1677407277, 2784967]
+inputs:
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Cache/CacheSerializer.swift"
+  : [1677337043, 855079174]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Cache/DiskStorage.swift"
+  : [1677337043, 855213880]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift"
+  : [1677337043, 855325698]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Cache/ImageCache.swift"
+  : [1677337043, 855510950]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Cache/MemoryStorage.swift"
+  : [1677337043, 855639934]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Cache/Storage.swift"
+  : [1677337043, 855729818]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/CPListItem+Kingfisher.swift"
+  : [1677337043, 855906248]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift"
+  : [1677337043, 855990409]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift"
+  : [1677337043, 856089591]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift"
+  : [1677337043, 856175422]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/TVMonogramView+Kingfisher.swift"
+  : [1677337043, 856270790]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/UIButton+Kingfisher.swift"
+  : [1677337043, 856368064]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Extensions/WKInterfaceImage+Kingfisher.swift"
+  : [1677337043, 856465816]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift"
+  : [1677337043, 856648683]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift"
+  : [1677337043, 856801986]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/ImageSource/Resource.swift"
+  : [1677337043, 856920242]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/ImageSource/Source.swift"
+  : [1677337043, 857024669]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/KF.swift"
+  : [1677337043, 857244014]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/KFOptionsSetter.swift"
+  : [1677337043, 857450962]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/Kingfisher.swift"
+  : [1677337043, 857547760]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/KingfisherError.swift"
+  : [1677337043, 857736587]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/KingfisherManager.swift"
+  : [1677337043, 857930660]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/General/KingfisherOptionsInfo.swift"
+  : [1677337043, 858120918]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/Filter.swift"
+  : [1677337043, 858266353]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/GIFAnimatedImage.swift"
+  : [1677337043, 858371496]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/GraphicsContext.swift"
+  : [1677337043, 858444929]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/Image.swift"
+  : [1677337043, 858574390]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageDrawing.swift"
+  : [1677337043, 858738899]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageFormat.swift"
+  : [1677337043, 858838558]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageProcessor.swift"
+  : [1677337043, 859006166]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageProgressive.swift"
+  : [1677337043, 859164237]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageTransition.swift"
+  : [1677337043, 859344244]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Image/Placeholder.swift"
+  : [1677337043, 859424591]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift"
+  : [1677337043, 859728574]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/ImageDataProcessor.swift"
+  : [1677337043, 859817504]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/ImageDownloader.swift"
+  : [1677337043, 859962940]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift"
+  : [1677337043, 860074043]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/ImageModifier.swift"
+  : [1677337043, 860188484]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/ImagePrefetcher.swift"
+  : [1677337043, 860335826]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/RedirectHandler.swift"
+  : [1677337043, 860433101]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/RequestModifier.swift"
+  : [1677337043, 860507726]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/RetryStrategy.swift"
+  : [1677337043, 860647678]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/SessionDataTask.swift"
+  : [1677337043, 860774755]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Networking/SessionDelegate.swift"
+  : [1677337043, 860854148]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/ImageBinder.swift"
+  : [1677337043, 860989809]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/ImageContext.swift"
+  : [1677337043, 861104011]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/KFAnimatedImage.swift"
+  : [1677337043, 861292839]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/KFImage.swift"
+  : [1677337043, 861406803]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/KFImageOptions.swift"
+  : [1677337043, 861483097]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/KFImageProtocol.swift"
+  : [1677337043, 861570596]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/SwiftUI/KFImageRenderer.swift"
+  : [1677337043, 861642837]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/Box.swift"
+  : [1677337043, 861915588]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/CallbackQueue.swift"
+  : [1677337043, 861998081]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/Delegate.swift"
+  : [1677337043, 862094879]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/ExtensionHelpers.swift"
+  : [1677337043, 862184047]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/Result.swift"
+  : [1677337043, 862283229]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/Runtime.swift"
+  : [1677337043, 862416267]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/SizeExtensions.swift"
+  : [1677337043, 862500667]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Utility/String+MD5.swift"
+  : [1677337043, 862621307]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Views/AnimatedImageView.swift"
+  : [1677337043, 862828969]
+  ? "/Users/codergirltm/Library/Developer/Xcode/DerivedData/Pixabay_Gallery-bntfefdvbacjfifyhiynxqrzbpkq/SourcePackages/checkouts/Kingfisher/Sources/Views/Indicator.swift"
+  : [1677337043, 862934112]

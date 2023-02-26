@@ -8,23 +8,16 @@
 import UIKit
 
 class SignUpViewModel {
-    enum RegisterError {
-        case emptyEmail
-        case emptyPassword
-        case invalidEmail
-        case invalidPassword
-        case ageLimit
-    }
     
     private var userAge = 0
     public var availableUser = [User]()
     static let instance = SignUpViewModel()
 
-    private var registerError: ((RegisterError) -> Void)?
+    private var registerError: ((SignUpError) -> Void)?
     
     
-    func registerUserWith(email: String, password: String, age: Int) -> [RegisterError] {
-        var errors = [RegisterError]()
+    func registerUserWith(email: String, password: String, age: Int) -> [SignUpError] {
+        var errors = [SignUpError]()
         if email == "" {
             errors.append(.emptyEmail)
         }

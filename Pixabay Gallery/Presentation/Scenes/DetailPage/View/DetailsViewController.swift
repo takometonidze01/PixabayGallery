@@ -31,8 +31,4 @@ class DetailsViewController: UIViewController {
         if let pixabayData = pixabayImage { detailView.showData(pixabayData: pixabayData) }
         view.backgroundColor = .systemBackground
     }
-    
-
-    
-
 }

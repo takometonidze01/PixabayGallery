@@ -13,14 +13,16 @@ class MainPageDataSource: NSObject, UITableViewDataSource {
     private var viewModel: MainPageViewModelProtocol!
     private var pixabayImageList = [PixabayImage]()
     private var viewController: UIViewController!
+    private var presentationAssembly: PresentationAssembly!
     
-    init(with tableView: UITableView, viewModel: MainPageViewModelProtocol, viewController: UIViewController) {
+    init(with tableView: UITableView, viewModel: MainPageViewModelProtocol, viewController: UIViewController, presentationAssembly: PresentationAssembly) {
         super.init()
         
         self.tableView = tableView
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
+        self.presentationAssembly = presentationAssembly
         self.viewModel = viewModel
         self.viewController = viewController
     }
@@ -54,7 +56,7 @@ class MainPageDataSource: NSObject, UITableViewDataSource {
 extension MainPageDataSource: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
-        let vc = DetailsViewController(pixabayImage: self.pixabayImageList[indexPath.row])
+        let vc = presentationAssembly.detailsScreen(pixabayImage: self.pixabayImageList[indexPath.row])
         viewController.push(vc)
     }
 }
