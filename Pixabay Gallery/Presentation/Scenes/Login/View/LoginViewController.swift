@@ -6,13 +6,15 @@
 //
 
 import UIKit
+import Combine
 
 class LoginViewController: UIViewController {
 
     private let presentationAssembly: PresentationAssembly
     private let loginService: LoginService
     private let loginView: LoginView
-    
+    private var cancellables = Set<AnyCancellable>()
+
     init(
         presentationAssembly: PresentationAssembly,
         loginService: LoginService,
@@ -30,17 +32,31 @@ class LoginViewController: UIViewController {
     
     override func loadView() {
         view = loginView
-        loginView.delegate = self
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        loginTapped()
+        signUpTapped()
     }
+    
+    private func loginTapped() {
+        loginView.loginTapped
+               .sink { [weak self] _ in
+                   self?.loginTap()
+               }
+               .store(in: &cancellables)
+    }
+    
+    private func signUpTapped() {
+        loginView.signUpTapped
+            .sink { [weak self] _ in
+                self?.signUpTap()
 
-}
-
-extension LoginViewController: LoginViewDelegate {
+            }
+            .store(in: &cancellables)
+    }
     
     func loginTap() {
         let vc = presentationAssembly.mainScreen()
@@ -51,4 +67,5 @@ extension LoginViewController: LoginViewDelegate {
         let vc = presentationAssembly.signUpScreen()
         push(vc)
     }
+
 }

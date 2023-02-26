@@ -8,11 +8,6 @@
 import UIKit
 
 class LoginViewModel {
-    private let loginService: LoginService
-    
-    init(loginService: LoginService) {
-        self.loginService = loginService
-    }
     
     enum LoginError: Error, CaseIterable {
         case emptyEmail

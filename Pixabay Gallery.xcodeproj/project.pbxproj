@@ -135,13 +135,13 @@
 		040408EC28AD691500CB55AC /* Pixabay Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				03CC7F5629AB60F00082D7A3 /* ServiceLayer */,
 				0404090128AD6AD500CB55AC /* API */,
 				0404090228AD6AEE00CB55AC /* App */,
 				0404090328AD6AFB00CB55AC /* Domain */,
 				0404090428AD6B0300CB55AC /* Resources */,
 				0404090528AD6B1000CB55AC /* Infrastructure */,
 				0404090628AD6B2100CB55AC /* Presentation */,
+				03CC7F5629AB60F00082D7A3 /* ServiceLayer */,
 				0404090728AD6B2B00CB55AC /* Supporting Files */,
 			);
 			path = "Pixabay Gallery";

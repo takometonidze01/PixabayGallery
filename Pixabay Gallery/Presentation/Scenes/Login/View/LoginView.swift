@@ -7,11 +7,7 @@
 
 import UIKit
 import SnapKit
-
-protocol LoginViewDelegate: AnyObject {
-    func loginTap()
-    func signUpTap()
-}
+import Combine
 
 class LoginView: UIView {
     
@@ -23,12 +19,21 @@ class LoginView: UIView {
     private let loginButton = UIButton()
     private let signUpButton = UIButton()
     private let errorLabel = UILabel()
-    weak var delegate: LoginViewDelegate?
     private var viewModel: LoginViewModel
     
+    private let loginPublisher = PassthroughSubject<Void, Never>()
+    private let signUpPublisher = PassthroughSubject<Void, Never>()
+    
+    var loginTapped: AnyPublisher<Void, Never>
+    var signUpTapped: AnyPublisher<Void, Never>
+
     init(viewModel: LoginViewModel) {
         self.viewModel = viewModel
+        
+        loginTapped = loginPublisher.eraseToAnyPublisher()
+        signUpTapped = signUpPublisher.eraseToAnyPublisher()
         super.init(frame: .zero)
+        
         
         self.setup()
         self.style()
@@ -127,7 +132,7 @@ class LoginView: UIView {
     @objc func loginButtonTap() {
         let result = viewModel.auth(withEmail: emailTextField.text, andPassword: passwordTextField.text)
         if result.1 == true {
-            delegate?.loginTap()
+            loginPublisher.send()
         } else {
             for error in result.0 {
                 switch error {
@@ -147,6 +152,6 @@ class LoginView: UIView {
     }
     
     @objc func signUpButtonTap() {
-        delegate?.signUpTap()
+        signUpPublisher.send()
     }
 }

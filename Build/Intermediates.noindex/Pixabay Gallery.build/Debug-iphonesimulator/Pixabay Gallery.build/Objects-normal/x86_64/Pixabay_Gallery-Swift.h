@@ -315,7 +315,6 @@ SWIFT_CLASS("_TtC15Pixabay_Gallery19LoginViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-
 @class UIImageView;
 
 SWIFT_CLASS("_TtC15Pixabay_Gallery8MainCell")

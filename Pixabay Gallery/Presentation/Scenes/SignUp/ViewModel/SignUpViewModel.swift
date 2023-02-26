@@ -40,7 +40,7 @@ class SignUpViewModel {
         
         if errors.count == 0 {
             let user = User(id: UUID().uuidString, email: email, password: password, age: age)
-            availableUser.append(user)
+            SignUpViewModel.instance.availableUser.append(user)
         }
         
         return errors

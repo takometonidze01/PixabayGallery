@@ -9,7 +9,6 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
-//    var signUpView = SignUpView(viewModel: SignUpViewModel.instance)
     private let presentationAssembly: PresentationAssembly
     private let signUpService: SignUpService
     private let signUpView: SignUpView
@@ -51,6 +50,4 @@ extension SignUpViewController: SignUpViewDelegate {
             push(vc)
         }
     }
-    
-    
 }
